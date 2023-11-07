@@ -1,0 +1,46 @@
+.banner{
+
+   height: 100vh;
+   background-color: rgb(255, 251, 232);
+   background-image: url('../../../public/assets/banner.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: top center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+  
+   
+}
+
+.banner div{
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   gap: 20px;
+}
+
+
+
+.banner h1{
+      color: white;
+      letter-spacing: 5px;
+      font-size: 46px;
+      text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+      font-family: var(--font-Poppins);
+
+    
+    
+}
+
+.banner div p{
+   color: goldenrod;
+   font-family: 'Dancing Script', cursive;
+   font-size: 32px;
+}
+
