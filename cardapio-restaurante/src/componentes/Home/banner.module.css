@@ -44,3 +44,67 @@
    font-size: 32px;
 }
 
+.containerPrincipal {
+   padding: 50px 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 30px;
+ }
+ 
+ .secaoCards {
+   width: 100%;
+   max-width: 1024px;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+ }
+ 
+ .secaoCards div h2 {
+   color: goldenrod;
+   font-family: 'Dancing Script', cursive;
+   text-align: center;
+   font-size: 30px;
+ }
+ 
+ .containerCards {
+   background-color: #f3f3f3;
+   border-radius: 4px;
+   padding: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   gap: 40px;
+ }
+ 
+ @media (max-width: 1024px) {
+   .banner div p {
+     font-size: 28px;
+   }
+ }
+ 
+ @media (max-width: 768px) {
+   .banner div {
+     max-width: 60%;
+   }
+ 
+   .banner div h1 {
+     font-size: 36px;
+   }
+ 
+   .banner div p {
+     font-size: 26px;
+   }
+ }
+ 
+ @media (max-width: 550px) {
+ 
+   .banner div h1 {
+     font-size: 26px;
+   }
+ 
+   .banner div p {
+     font-size: 18px;
+   }
+ }
+
